@@ -55,6 +55,13 @@
             "text": "{{ product.vendor }}",
             "text_style": "body"
           }
+        },
+        "86dfc346-4c50-4272-a394-500cabcc029d": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.title }}",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -66,7 +73,8 @@
         "buy_buttons",
         "description",
         "share",
-        "9db124ff-4098-4b7f-b52a-d684a02a840f"
+        "9db124ff-4098-4b7f-b52a-d684a02a840f",
+        "86dfc346-4c50-4272-a394-500cabcc029d"
       ],
       "settings": {
         "enable_sticky_info": true,
