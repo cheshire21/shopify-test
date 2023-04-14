@@ -432,6 +432,15 @@
               {% render 'icon-with-text',
                 block: block
               %}
+            {%- when 'vendor' -%}
+            <div class="product__title" {{ block.shopify_attributes }}>
+              <h1>{{ product.vendor | escape }}</h1>
+              <a href="{{ product.url }}" class="product__title">
+                <h2 class="h1">
+                  {{ product.vendor | escape }}
+                </h2>
+              </a>
+            </div>
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
