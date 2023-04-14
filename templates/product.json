@@ -4,11 +4,8 @@
       "type": "main-product",
       "blocks": {
         "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
+          "type": "vendor",
+          "settings": {}
         },
         "title": {
           "type": "title",
