@@ -20,7 +20,7 @@
         "template--18574728134941__106acc82-ebb9-4195-bb07-3d60958fb650-16817022964a83bd48-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "template--18574728134941__106acc82-ebb9-4195-bb07-3d60958fb650-16817022964a83bd48-2": {
@@ -50,8 +50,5 @@
       }
     }
   },
-  "order": [
-    "main",
-    "106acc82-ebb9-4195-bb07-3d60958fb650"
-  ]
+  "order": ["main", "106acc82-ebb9-4195-bb07-3d60958fb650"]
 }
