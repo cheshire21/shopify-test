@@ -5,6 +5,7 @@
 .rich-text__wrapper {
   display: flex;
   justify-content: center;
+  color: red;
   width: calc(100% - 4rem / var(--font-body-scale));
 }
 
